@@ -31,12 +31,11 @@ export function ContactForm() {
                             </div>
                             <div className="mt-4 justify-items-center col-start-5 col-end-7 col-span-3">
                                 <div>
-                                    <button className="bg-gray-700 hover:bg-[#0166B1] text-white font-semibold py-2 px-4 rounded">
+                                    <button className="bg-gray-700 hover:bg-[#0166B1] text-white font-semibold py-2  px-10 rounded">
                                         Send
                                         message
                                     </button>
                                 </div>
-
                             </div>
                         </div>
                     </form>

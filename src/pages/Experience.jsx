@@ -1,11 +1,11 @@
-import { AppFooter } from "../components/AppFooter";
-import { AppNav } from "../components/AppNav";
+// import { AppFooter } from "../components/AppFooter";
+
 
 export function Experience() {
     return (
         <div className="flex flex-col h-screen">
 
-            <AppNav />
+            {/* <AppNav /> */}
             <div className="mb-20 mt-20 pt-4 flex-grow">
                 <div className="mt-10 grid grid-cols-12">
                     <div className="col-start-3 col-end-8 col-span-5 font-bold">
@@ -21,8 +21,11 @@ export function Experience() {
                             <div className="flex justify-between">
                                 <p className="font-semibold">Position: React Developer</p>
                                 <p className="font-semibold text-sm">Date: 2024 - Current</p>
+
                             </div>
 
+                            <p>Current Project: Law Centre Network <span><a href="https://www.lawcentres.org.uk/" className="text-[#0166B1] ml-2 font-extrabold" target="_blank" rel="noopener noreferrer">Site</a></span></p>
+                            <p className="text-justify">The Law Centres Network (LCN) is a national membership body for Law Centres in England, Wales, and Northern Ireland. It supports and represents Law Centres, which are not-for-profit legal practices providing free legal advice and representation to individuals who cannot afford commercial legal services.</p>
                             <ul className="list-disc list-inside ">
                                 <li>Helped in migrating from font awesome to react icons.</li>
                             </ul>
@@ -69,7 +72,7 @@ export function Experience() {
 
             </div>
 
-            <AppFooter />
+            {/* <AppFooter /> */}
         </div>
     )
 }

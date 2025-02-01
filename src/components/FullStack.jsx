@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export default function FullStack() {
     return (<div>
-        <div className="mt-4 grid grid-cols-12 custom-font gap-6">
+        <div className="mt-6 grid grid-cols-12 custom-font gap-6">
 
-            <div className="col-start-2 col-end-11 col-span-9 bg-stone-50 drop-shadow-lg shadow-[0px_-14px_21px_-1px_rgba(0,0,0,0.1)]">
+            <div className="col-start-2 col-end-10 col-span-8 bg-stone-50 drop-shadow-lg shadow-[0px_-14px_21px_-1px_rgba(0,0,0,0.1)]">
                 <div className="flex flex-row gap-2 ">
                     <div>
                         <img src="/assets/images/project_images/project_1/sample1.jpg" width="400" height="400" />

@@ -1,12 +1,15 @@
 import { FaReact } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import { useSelector } from "react-redux";
 
 export function AppFooter() {
+    const { isOpen } = useSelector((state) => state.modal);
     return (
-        <div className="h-20 inset-x-0 bottom-0 text-sm font-normalbg-gray-100 bg-opacity-30 backdrop-filter backdrop-blur shadow-[0px_-14px_21px_-1px_rgba(0,0,0,0.1)] drop-shadow-md backdrop-invert-0">
-            <div className="flex place-items-end text-m justify-between px-6 py-6">
+        // shadow-[0px_-14px_21px_-1px_rgba(0,0,0,0.1)] drop-shadow-md 
+        <div className={`z-10 h-20 text-sm font-normal bg-gray-100 bg-opacity-30 backdrop-filter backdrop-blur ${isOpen ? "hidden" : ""}`} >
+            <div className="flex text-sm justify-between px-6 py-6">
                 <div className="w-50">Designed and Built by Deepak Kodi</div>
-                <div className=" hover:cursor-pointer">
+                <div className="hover:cursor-pointer">
                     <IconContext.Provider value={{ size: "2rem", className: "icon-style" }} >
                         <div>
                             <FaReact />

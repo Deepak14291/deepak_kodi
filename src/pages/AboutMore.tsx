@@ -9,8 +9,7 @@ import {
     CarouselPrevious,
 } from "../components/ui/carousel";
 import { Button } from "../components/ui/button";
-import { AppNav } from "../components/AppNav";
-import { AppFooter } from "../components/AppFooter";
+// import { AppFooter } from "../components/AppFooter";
 
 export default function AboutMore() {
     const [api, setApi] = useState<CarouselApi>()
@@ -32,33 +31,36 @@ export default function AboutMore() {
 
     return (
         <div className="flex flex-col h-screen">
-            <AppNav />
+            {/* <AppNav /> */}
             <div className="flex-grow">
                 <div className="mt-20 pt-10 grid grid-cols-12 ">
-                    <p className="col-start-2 col-end-10 col-span-8 font-semibold"> Recognition and Awards received at my previous company Concentrix:</p>
+                    <p className="col-start-2 col-end-10 col-span-8 font-semibold"> Recognition and Awards received:</p>
                 </div>
-                <div className="mt-16 pt-6 mx-auto mb-20">
+                <div className="mt-5 pt-6 mx-auto mb-20">
                     <Carousel setApi={setApi} className="h-full  ">
                         <CarouselContent className="h-full w-full">
                             <CarouselItem className="flex w-full h-full justify-center items-center">
                                 <img src="/assets/images/aboutme_readmore/feedback.jpg" alt="" width={1000} height={1000} />
                             </CarouselItem>
                             <CarouselItem className="flex w-full h-full justify-center items-center">
-                                <img src="/assets/images/aboutme_readmore/feedback.jpg" alt="" width={1000} height={1000} />
+                                <img src="/assets/images/aboutme_readmore/Deepak_K_(100895613).jpg" alt="" width={1000} height={1000} />
                             </CarouselItem>
+
                             <CarouselItem className="flex w-full h-full  justify-center items-center">
-                                <img src="/assets/images/aboutme_readmore/feedback.jpg" alt="" width={1000} height={1000} />
+                                <img src="/assets/images/aboutme_readmore/Loyalty Award.jpg" alt="" width={600} height={500} />
+                            </CarouselItem>
+                            <CarouselItem className="flex w-full h-full justify-center items-center">
+                                <img src="/assets/images/aboutme_readmore/MSc Degree.jpg" alt="" width={600} height={500} />
                             </CarouselItem>
                         </CarouselContent>
-
                     </Carousel>
-                    <div className="flex gap-3 justify-center">
-                        <Button onClick={() => api?.scrollTo(current - 1)}>Previous</Button>
-                        <Button onClick={() => api?.scrollTo(current + 1)}>Next</Button>
+                    <div className="mt-3 flex gap-3 justify-center">
+                        <Button className="bg-gray-700 hover:bg-[#0166B1] text-white py-2 px-10 rounded" onClick={() => api?.scrollTo(current - 1)}>Previous</Button>
+                        <Button className="bg-gray-700 hover:bg-[#0166B1] text-white py-2 px-10 rounded" onClick={() => api?.scrollTo(current + 1)}>Next</Button>
                     </div>
                 </div>
             </div>
-            <AppFooter />
+            {/* <AppFooter /> */}
         </div>
     )
 }
