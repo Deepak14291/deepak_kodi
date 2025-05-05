@@ -11,8 +11,10 @@ export function Homepage() {
                     <p className="mt-10 col-start-4 col-end-10 col-span-6 text-center index-font font-light font-['spectral'] leading-normal">
                         Hi there, I’m Deepak.<br />
                         Full stack <span className="text-[#0166B1]">web developer</span>,<br />
-                        focused on creating <i className="font-extralight">beautiful</i> and
-                        minimalistic web applications.
+                        Currently volunteering at Scottish tech army <br />
+                        Based in Bristol, England
+                        {/* focused on creating <i className="font-extralight">beautiful</i> and
+                        minimalistic web applications. */}
                     </p>
                 </div>
 
@@ -30,4 +32,3 @@ export function Homepage() {
         </div>
     )
 }
-

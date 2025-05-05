@@ -14,8 +14,27 @@ export function Experience() {
                 </div>
 
                 <div className=" antialiased font-medium mt-10 grid grid-cols-12 leading-relaxed text-color-gray  ">
+
+                    {/* <div className="col-start-3 col-end-10 col-span-7 flex gap-6 border-solid border-b-2 pb-5">
+                        <img src="/assets/images/work/developForGood.png" alt="DFG image" className="w-30 h-12 self-center" />
+                        <div className="flex flex-col gap-2">
+                            <p className="text-justify">Develop for Good is a nonprofit organization that connects student volunteers with social impact organizations to build technology solutions. Their goal is to provide real-world experience to students while helping nonprofits access high-quality tech services for free. They typically work on projects like website development, mobile apps, and data analysis, supporting causes such as education, healthcare, and climate action. </p>
+                            <div className="flex justify-between">
+                                <p className="font-semibold">Position: Full Stack Web Developer</p>
+                                <p className="font-semibold text-sm">Date: 2025 - Current</p>
+
+                            </div>
+
+                            <p>Current Project:  <span><a href="https://www.lawcentres.org.uk/" className="text-[#0166B1] ml-2 font-extrabold" target="_blank" rel="noopener noreferrer">Site</a></span></p>
+                            <p className="text-justify"></p>
+                            <ul className="list-disc list-inside ">
+                                <li>Helped in migrating from font awesome to react icons.</li>
+                            </ul>
+                        </div>
+                    </div> */}
+
                     <div className="col-start-3 col-end-10 col-span-7 flex gap-6 border-solid border-b-2 pb-5">
-                        <img src="/assets/images/work/STA.png" alt="STA image" className="w-30 h-12 self-center" />
+                        <img src="/assets/images/work/STA.png" alt="STA image" className="w-30 h-12 self-center pr-8" />
                         <div className="flex flex-col gap-2">
                             <p className="text-justify">STA is a volunteer-driven organization based in Scotland that leverages the expertise of technology professionals to address societal challenges and support community initiatives.  </p>
                             <div className="flex justify-between">
@@ -34,7 +53,7 @@ export function Experience() {
                 </div>
                 <div className="antialiased font-medium mt-10 grid grid-cols-12 leading-relaxed  text-color-gray  ">
                     <div className="col-start-3 col-end-10 col-span-7 flex gap-6">
-                        <img src="/assets/images/work/concentrix.webp" alt="Concentrix image" className="w-30 h-16 " />
+                        <img src="/assets/images/work/concentrix.webp" alt="Concentrix image" className="w-30 h-16  pr-8" />
                         <div className="flex flex-col gap-2">
                             <p className="text-justify">An IT Services and IT Consulting firm with ~145,000 employees and $6.47B in revenues with over 100 fortune global 500 clients.</p>
                             <div className="flex justify-between">

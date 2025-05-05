@@ -21,7 +21,7 @@ export function About() {
                         <div className="mt-4 text-lg font-bold antialiased tracking-wide">DEEPAK KODI</div>
                         <div className="mt-2 custom-font text-base font-semibold antialiased ">Full Stack Web Developer</div>
                         <div className="mt-2 custom-font text-sm font-semibold underline text-[#0166B1]">
-                            <a target="_blank" href="https://www.linkedin.com/in/deepak-kodi-uk/">Linkedin</a>
+                            <a target="_blank" href="https://www.linkedin.com/in/deepak-kodi/">Linkedin</a>
                         </div>
                         <div className="mt-2 custom-font text-sm font-semibold underline text-[#0166B1]">
                             <a target="_blank" className="mt-2" href="https://github.com/Deepak14291">Github</a>
